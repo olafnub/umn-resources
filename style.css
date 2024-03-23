@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(25, 25, 25); 
+    color: rgba(255, 255, 255, 0.81);
+    padding: 30px;
+}
+img {
+    width: 800px;
+}
+.link-class-orange {
+    color: orange;
+    text-decoration: none;
+}
+.link-class-blue {
+    color: #bde0fe;
+    text-decoration: none;
+}
+.link-class-purple {
+    color: #c8b6ff;
+    text-decoration: none;
+}
+li {
+    padding: 10px;
+}
+.notion-green {
+    color: #bde052;
+}
+.notion-pink {
+    color: rgba(209, 87, 150, 1);
+}
+.bigger-text {
+    font-size: 40px;
+}
+.smaller-text {
+    font-weight: 900;
+    font-size: 11px;
+}
+.creative-box {
+    font-size: 25px;
+    display: inline; /* I'm using inline because I'm using a bunch of <span> elements and not <p> elements */
+    /* <p> elements has an auto new space everytime there's a new <p> so therefore if I wanted to change color then I used <span> */
+    border: 1px solid green;   
+}
+
